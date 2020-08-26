@@ -1,0 +1,1 @@
+[30-Apr-2019 14:57:42 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\HomeController::save_in_cache() in /home/expatss/public_html/app/Http/Controllers/HomeController.php on line 400

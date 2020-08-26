@@ -1,0 +1,36 @@
+{
+    "name": "clue/buzz-react",
+    "description": "Simple, async PSR-7 HTTP client for concurrently processing any number of HTTP requests, built on top of ReactPHP",
+    "keywords": ["HTTP client", "PSR-7", "HTTP", "ReactPHP", "async"],
+    "homepage": "https://github.com/clue/reactphp-buzz",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Lück",
+            "email": "christian@lueck.tv"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Clue\\React\\Buzz\\": "src/" }
+    },
+    "require": {
+        "php": ">=5.3",
+        "psr/http-message": "^1.0",
+        "react/event-loop": "^1.0 || ^0.5 || ^0.4 || ^0.3",
+        "react/http-client": "^0.5.8",
+        "react/promise": "^2.2.1 || ^1.2.1",
+        "react/promise-stream": "^1.0 || ^0.1.1",
+        "react/promise-timer": "^1.2",
+        "react/socket": "^1.1",
+        "react/stream": "^1.0 || ^0.7",
+        "ringcentral/psr7": "^1.2"
+    },
+    "require-dev": {
+        "clue/block-react": "^1.0",
+        "clue/http-proxy-react": "^1.3",
+        "clue/reactphp-ssh-proxy": "^1.0",
+        "clue/socks-react": "^1.0",
+        "phpunit/phpunit": "^7.0 || ^6.4 || ^5.7 || ^4.8.35",
+        "react/http": "^0.8"
+    }
+}
